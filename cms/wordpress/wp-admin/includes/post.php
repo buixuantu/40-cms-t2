@@ -647,7 +647,6 @@ function get_default_post_to_edit( $post_type = 'post', $create_in_db = false ) 
 	if ( ! empty( $_REQUEST['post_title'] ) ) {
 		$post_title = esc_html( wp_unslash( $_REQUEST['post_title'] ) );
 	}
-
 	$post_content = '';
 	if ( ! empty( $_REQUEST['content'] ) ) {
 		$post_content = esc_html( wp_unslash( $_REQUEST['content'] ) );
@@ -716,7 +715,6 @@ function get_default_post_to_edit( $post_type = 'post', $create_in_db = false ) 
 	 * @param WP_Post $post       Post object.
 	 */
 	$post->post_title = (string) apply_filters( 'default_title', $post_title, $post );
-
 	/**
 	 * Filters the default post excerpt initially used in the "Write Post" form.
 	 *
@@ -763,6 +761,7 @@ function post_exists( $title, $content = '', $date = '', $type = '' ) {
 	if ( ! empty( $title ) ) {
 		$query .= ' AND post_title = %s';
 		$args[] = $post_title;
+
 	}
 
 	if ( ! empty( $content ) ) {
