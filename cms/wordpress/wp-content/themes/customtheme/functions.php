@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 function cwd_wp_bootstrap_scripts_styles() {
   // Loads Bootstrap minified JavaScript file.
@@ -27,3 +28,9 @@ add_action('after_setup_theme', 'wpt_theme_setup');
 
 
 ?>
+=======
+function custom_theme_assets() {
+wp_enqueue_style( 'style', get_stylesheet_uri() );
+}
+add_action( 'wp_enqueue_scripts', 'custom_theme_assets' );
+>>>>>>> 2008f9d2573023c254af82f6744a0a93708a143a

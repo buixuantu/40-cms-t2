@@ -1,7 +1,11 @@
 <?php
 /**
  * Plugin Name: Test Plugin
+<<<<<<< HEAD
  * Author: BuiXuanTu
+=======
+ * Author: Khang
+>>>>>>> 2008f9d2573023c254af82f6744a0a93708a143a
  * Version: 1.0.0
  */
   

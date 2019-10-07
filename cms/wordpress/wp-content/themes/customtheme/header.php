@@ -12,6 +12,7 @@
  <header class="site-header">
  <h1><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
  <h4><?php bloginfo( 'description' ); ?></h4>
+<<<<<<< HEAD
  <nav id="headroom" class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -49,3 +50,7 @@
  </header>
 
 
+=======
+ </header>
+
+>>>>>>> 2008f9d2573023c254af82f6744a0a93708a143a

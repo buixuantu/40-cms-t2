@@ -3,12 +3,17 @@ Theme Name: BuiXuanTu
 Author: Vegibit
 Author URI: https://BuiXuanTu
 Version: 1.0
+<<<<<<< HEAD
 */
+=======
+ */
+>>>>>>> 2008f9d2573023c254af82f6744a0a93708a143a
 body {
  font-family: Arial, sans-serif;
  font-size: 16px;
  color: #545454;
 }
+<<<<<<< HEAD
 img
 {
 	vertical-align: middle !important;
@@ -21,6 +26,10 @@ a:link, a:visited {
 }
 a:hover{
 	color: red;
+=======
+a:link, a:visited {
+ color: #4285f4;
+>>>>>>> 2008f9d2573023c254af82f6744a0a93708a143a
 }
 p {
  line-height: 1.7em;
@@ -41,6 +50,7 @@ article.post:last-of-type {
 .site-footer {
  border-top: 3px solid #ecf0f1;
 }
+<<<<<<< HEAD
 .swiper-container {
       width: 100%;
       height: 100%;
@@ -63,3 +73,5 @@ article.post:last-of-type {
       -webkit-align-items: center;
       align-items: center;
     }
+=======
+>>>>>>> 2008f9d2573023c254af82f6744a0a93708a143a
