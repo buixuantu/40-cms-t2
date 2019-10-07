@@ -34,6 +34,7 @@ if ( empty( $current_screen ) ) {
 get_admin_page_title();
 $title = esc_html( strip_tags( $title ) );
 
+
 if ( is_network_admin() ) {
 	/* translators: Network admin screen title. %s: Network name */
 	$admin_title = sprintf( __( 'Network Admin: %s' ), esc_html( get_network()->site_name ) );
